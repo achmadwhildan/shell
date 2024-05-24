@@ -1,0 +1,17 @@
+<?php
+
+        $mahasiswa = 80;
+
+        if($mahasiswa >= 90 && $mahasiswa < 100){
+            echo "A: lulus";
+        } elseif ($mahasiswa >= 80 && $mahasiswa < 89){
+            echo "B: lulus";
+        } elseif ($mahasiswa >= 70 && $mahasiswa < 79){
+            echo "C: lulus";
+        } elseif ($mahasiswa >= 60 && $mahasiswa < 69){
+            echo "D: tidak lulus";
+        } else{
+            echo "E: tidak lulus";
+        }
+
+    ?>

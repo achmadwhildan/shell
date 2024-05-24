@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.kotak{
+    background-color: greenyellow;
+    width: 25%;
+    margin-top: 15%;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+.kotak h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-bottom: 2px solid yellow;
+}
